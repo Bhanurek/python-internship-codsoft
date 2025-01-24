@@ -1,0 +1,22 @@
+import string
+def Arthimaticcalculator():
+ input1 = int(input("Enter input1 or 1st operand"))
+ if input1 == string:
+    print("Please enter digits only")
+ input2 = int(input("Enter input2 or 2nd operand"))
+ if input2 == string:
+    print("Please enter digits only")
+ choice = int(input("Enter 1 for add, 2 for Sub, 3 for Mul, 4 for div, 5 for modules"))
+ if choice == 1:
+    print("input1 + input2 = ", input1+input2)
+ elif choice == 2:
+    print("input1 - input2 = ", input1-input2)    
+ elif choice == 3:
+    print("input1 * input2 = ", input1*input2)    
+ elif choice ==  4:
+    print("input1 / input2 = ", input1/input2)  
+ elif choice == 5:
+    print("input1 % input2 = ", input1%input2)  
+ else:
+    print("enter numbers only between 1-5")
+A = Arthimaticcalculator()
